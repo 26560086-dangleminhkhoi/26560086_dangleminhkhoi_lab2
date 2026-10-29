@@ -228,7 +228,6 @@ footer {
     padding: 28px 12px;
 }
 
-/* Responsive 1024px */
 @media (max-width: 1024px) {
     .navbar, .product-grid {
         max-width: 940px;
@@ -267,7 +266,7 @@ footer {
     }
 }
 
-/* Responsive 768px */
+
 @media (max-width: 768px) {
     .navbar {
         height: 64px;
@@ -325,7 +324,7 @@ footer {
     }
 }
 
-/* Responsive Mobile */
+
 @media (max-width: 520px) {
     .nav-links {
         display: none;
