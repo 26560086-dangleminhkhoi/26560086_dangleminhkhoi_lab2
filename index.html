@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeTech Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="navbar">
+            <a href="#home" class="logo">
+                <span class="logo-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+                        <path d="M12 2 22 12 12 22 2 12 12 2Z"/>
+                        <path d="M12 2 16 12 12 22 8 12 12 2Z"/>
+                    </svg>
+                </span>
+                VibeTech
+            </a>
+
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#products">Deals</a>
+                <a href="#footer">About</a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="icon-button" aria-label="Search">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                        <circle cx="11" cy="11" r="7"/>
+                        <path d="m20 20-4-4"/>
+                    </svg>
+                </button>
+
+                <button class="icon-button cart-button" aria-label="Shopping cart">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="9" cy="21" r="1"/>
+                        <circle cx="20" cy="21" r="1"/>
+                        <path d="M1 2h3l2.5 13h13l2-10H5"/>
+                    </svg>
+                    <span id="cart-count">3</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Unleash the Next Level</h1>
+        <p>Explore our curated collection of professional workspace gear, crafted to elevate<br class="desktop-break"> your daily productivity and creative flow.</p>
+    </section>
+
+    <main class="products-section" id="products">
+        <div class="product-grid">
+
+            <article class="product-card">
+                <div class="product-image">
+                    <span class="tag dark">Hot</span>
+                    <img src="https://images.unsplash.com/photo-1527814050087-3793815479db?w=500&h=350&fit=contain" alt="Wireless mouse">
+                </div>
+                <div class="product-info">
+                    <p class="category">ACCESSORIES</p>
+                    <h2>Wireless Mouse</h2>
+                    <p class="price">$59.00</p>
+                    <button class="add-cart">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                            <circle cx="9" cy="20" r="1"/>
+                            <circle cx="19" cy="20" r="1"/>
+                            <path d="M2 3h2l3 12h12l2-9H5"/>
+                        </svg>
+                        Add to Cart
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500&h=350&fit=contain" alt="Mechanical keyboard">
+                </div>
+                <div class="product-info">
+                    <p class="category">KEYBOARDS</p>
+                    <h2>Tactix K85 Mechanical</h2>
+                    <p class="price">$129.00</p>
+                    <button class="add-cart">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                            <circle cx="9" cy="20" r="1"/>
+                            <circle cx="19" cy="20" r="1"/>
+                            <path d="M2 3h2l3 12h12l2-9H5"/>
+                        </svg>
+                        Add to Cart
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=350&fit=contain" alt="Headphones">
+                </div>
+                <div class="product-info">
+                    <p class="category">AUDIO</p>
+                    <h2>ZenSound ANC Headset</h2>
+                    <p class="price">$189.00</p>
+                    <button class="add-cart">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                            <circle cx="9" cy="20" r="1"/>
+                            <circle cx="19" cy="20" r="1"/>
+                            <path d="M2 3h2l3 12h12l2-9H5"/>
+                        </svg>
+                        Add to Cart
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <span class="tag dark">Sale</span>
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=350&fit=contain" alt="Smart watch">
+                </div>
+                <div class="product-info">
+                    <p class="category">WEARABLES</p>
+                    <h2>NovaFit Smart Watch</h2>
+                    <p class="price">$99.00</p>
+                    <button class="add-cart">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                            <circle cx="9" cy="20" r="1"/>
+                            <circle cx="19" cy="20" r="1"/>
+                            <path d="M2 3h2l3 12h12l2-9H5"/>
+                        </svg>
+                        Add to Cart
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <span class="tag green">New</span>
+                    <img src="https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500&h=350&fit=contain" alt="Monitor">
+                </div>
+                <div class="product-info">
+                    <p class="category">MONITORS</p>
+                    <h2>Horizon 27” IPS QHD Display</h2>
+                    <p class="price">$299.00</p>
+                    <button class="add-cart">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                            <circle cx="9" cy="20" r="1"/>
+                            <circle cx="19" cy="20" r="1"/>
+                            <path d="M2 3h2l3 12h12l2-9H5"/>
+                        </svg>
+                        Add to Cart
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=500&h=350&fit=contain" alt="Microphone">
+                </div>
+                <div class="product-info">
+                    <p class="category">AUDIO</p>
+                    <h2>StreamMic Pro Cardioid</h2>
+                    <p class="price">$149.00</p>
+                    <button class="add-cart">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                            <circle cx="9" cy="20" r="1"/>
+                            <circle cx="19" cy="20" r="1"/>
+                            <path d="M2 3h2l3 12h12l2-9H5"/>
+                        </svg>
+                        Add to Cart
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <span class="tag dark">Sale</span>
+                    <img src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=500&h=350&fit=contain" alt="Desk lamp">
+                </div>
+                <div class="product-info">
+                    <p class="category">ACCESSORIES</p>
+                    <h2>Lumos RGB Smart Desk Lamp</h2>
+                    <p class="price">$45.00</p>
+                    <button class="add-cart">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                            <circle cx="9" cy="20" r="1"/>
+                            <circle cx="19" cy="20" r="1"/>
+                            <path d="M2 3h2l3 12h12l2-9H5"/>
+                        </svg>
+                        Add to Cart
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=350&fit=contain" alt="Laptop riser">
+                </div>
+                <div class="product-info">
+                    <p class="category">ACCESSORIES</p>
+                    <h2>ErgoStand Aluminum Laptop Riser</h2>
+                    <p class="price">$69.00</p>
+                    <button class="add-cart">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                            <circle cx="9" cy="20" r="1"/>
+                            <circle cx="19" cy="20" r="1"/>
+                            <path d="M2 3h2l3 12h12l2-9H5"/>
+                        </svg>
+                        Add to Cart
+                    </button>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <footer id="footer">
+        © 2026 VibeTech. Designed for Web Development Practice.
+    </footer>
+</body>
+</html>
